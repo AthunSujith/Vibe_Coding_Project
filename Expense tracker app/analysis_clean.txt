@@ -1,0 +1,32 @@
+Analyzing Expense tracker app...                                
+
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\themes\app_theme.dart:62:27 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\core\widgets\glass_container.dart:14:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\glass_container.dart:37:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\glass_container.dart:40:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\glass_container.dart:48:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\glass_container.dart:49:34 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\core\widgets\mesh_background.dart:6:9 - use_super_parameters
+warning - The value of the local variable 'paint' isn't used - lib\core\widgets\mesh_background.dart:63:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\mesh_background.dart:81:25 - deprecated_member_use
+warning - Unused import: 'package:lumina_finance/data/models/models.dart' - lib\features\accounts\screens\accounts_screen.dart:6:8 - unused_import
+   info - The private field _selectedTime could be 'final' - lib\features\transactions\screens\add_transaction_screen.dart:27:13 - prefer_final_fields
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\transactions\widgets\recent_transactions_list.dart:58:70 - deprecated_member_use
+warning - Unused import: 'package:lumina_finance/features/dashboard/screens/premium_dashboard.dart' - lib\main.dart:6:8 - unused_import
+
+flutter : 13 issues found. 
+(ran in 4.5s)
+At line:1 char:1
++ flutter analyze --no-pub 
+> analysis_err_final.txt 
+2>&1; Select-String ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (13 is  
+  sues found. (ran in 4.5   
+ s):String) [], RemoteEx    
+ception
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 

@@ -1,0 +1,386 @@
+﻿Running Gradle task 'assembleDebug'...                          
+flutter : lib/screens
+/home_screen.dart:86:
+15: Error: No named 
+parameter with the 
+name 'child'.
+At line:1 char:1
++ flutter build apk 
+--debug > 
+build_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (lib/scr   
+ eens/hom...e nam    
+e 'child'.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+              child: 
+SliverList(
+              ^^^^^
+/C:/flutter_windows_3
+.35.5-stable/flutter/
+packages/flutter/lib/
+src/widgets/basic.dar
+t:3905:9: Context: 
+Found this 
+candidate, but the 
+arguments don't 
+match.
+  const SliverPadding
+({super.key, 
+required 
+this.padding, 
+Widget? sliver}) : 
+super(child: sliver);
+        ^^^^^^^^^^^^^
+lib/providers/todo_pr
+ovider.dart:6:28: 
+Error: Type 
+'StateNotifier' not 
+found.
+class TodoNotifier 
+extends StateNotifier
+<List<Todo>> {
+                     
+      ^^^^^^^^^^^^^
+lib/providers/todo_pr
+ovider.dart:77:22: 
+Error: Method not 
+found: 'StateNotifier
+Provider'.
+final todoProvider = 
+StateNotifierProvider
+<TodoNotifier, 
+List<Todo>>((ref) {
+                     
+^^^^^^^^^^^^^^^^^^^^^
+lib/providers/todo_pr
+ovider.dart:14:17: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+    state = 
+[...state, todo];
+                ^^^^^
+lib/providers/todo_pr
+ovider.dart:14:5: 
+Error: The setter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing setter, 
+or defining a setter 
+or field named 
+'state'.
+    state = 
+[...state, todo];
+    ^^^^^
+lib/providers/todo_pr
+ovider.dart:27:18: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+    final todo = 
+state.firstWhere((t) 
+=> t.id == id);
+                 
+^^^^^
+lib/providers/todo_pr
+ovider.dart:30:17: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+    state = 
+[...state];
+                ^^^^^
+lib/providers/todo_pr
+ovider.dart:30:5: 
+Error: The setter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing setter, 
+or defining a setter 
+or field named 
+'state'.
+    state = 
+[...state];
+    ^^^^^
+lib/providers/todo_pr
+ovider.dart:46:13: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+    state = 
+state.where((t) => 
+t.id != id).toList();
+            ^^^^^
+lib/providers/todo_pr
+ovider.dart:46:5: 
+Error: The setter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing setter, 
+or defining a setter 
+or field named 
+'state'.
+    state = 
+state.where((t) => 
+t.id != id).toList();
+    ^^^^^
+lib/providers/todo_pr
+ovider.dart:52:19: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+    final index = 
+state.indexWhere((t) 
+=> t.id == 
+updatedTodo.id);
+                  
+^^^^^
+lib/providers/todo_pr
+ovider.dart:55:29: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+        for (int i = 
+0; i < state.length; 
+i++)
+                     
+       ^^^^^
+lib/providers/todo_pr
+ovider.dart:56:44: 
+Error: The getter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 
+'state'.
+          if (i == 
+index) updatedTodo 
+else state[i]
+                     
+                     
+ ^^^^^
+lib/providers/todo_pr
+ovider.dart:54:7: 
+Error: The setter 
+'state' isn't 
+defined for the type 
+'TodoNotifier'.
+ - 'TodoNotifier' is 
+from 'package:todo_ap
+p/providers/todo_prov
+ider.dart' ('lib/prov
+iders/todo_provider.d
+art').
+Try correcting the 
+name to the name of 
+an existing setter, 
+or defining a setter 
+or field named 
+'state'.
+      state = [
+      ^^^^^
+lib/services/notifica
+tion_service.dart:65:
+11: Error: The 
+getter 'UILocalNotifi
+cationDateInterpretat
+ion' isn't defined 
+for the type 'Notific
+ationService'.
+ - 'NotificationServi
+ce' is from 'package:
+todo_app/services/not
+ification_service.dar
+t' ('lib/services/not
+ification_service.dar
+t').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 'UILoc
+alNotificationDateInt
+erpretation'.
+          UILocalNoti
+ficationDateInterpret
+ation.absoluteTime,
+          ^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^
+lib/services/notifica
+tion_service.dart:64:
+7: Error: No named 
+parameter with the 
+name 'uiLocalNotifica
+tionDateInterpretatio
+n'.
+      uiLocalNotifica
+tionDateInterpretatio
+n:
+      ^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^
+Target kernel_snapsho
+t_program failed: 
+Exception
+
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileFlu
+tterBuildDebug'.
+> Process 'command 'C
+:\flutter_windows_3.3
+5.5-stable\flutter\bi
+n\flutter.bat'' 
+finished with 
+non-zero exit value 1
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 8s
+Running Gradle task 'assembleDebug'...                              8.4s
+Gradle task 
+assembleDebug failed 
+with exit code 1

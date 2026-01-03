@@ -1,0 +1,100 @@
+﻿Running Gradle task 'assembleDebug'...                          
+flutter : lib/service
+s/notification_servic
+e.dart:64:11: Error: 
+The getter 'UILocalNo
+tificationDateInterpr
+etation' isn't 
+defined for the type 
+'NotificationService'
+.
+At line:1 char:1
++ flutter build apk 
+--debug > 
+build_log_2.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (lib/ser   
+ vices/no...catio    
+nService'.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ - 'NotificationServi
+ce' is from 'package:
+todo_app/services/not
+ification_service.dar
+t' ('lib/services/not
+ification_service.dar
+t').
+Try correcting the 
+name to the name of 
+an existing getter, 
+or defining a getter 
+or field named 'UILoc
+alNotificationDateInt
+erpretation'.
+          UILocalNoti
+ficationDateInterpret
+ation.absoluteTime,
+          ^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^
+lib/services/notifica
+tion_service.dart:63:
+7: Error: No named 
+parameter with the 
+name 'uiLocalNotifica
+tionDateInterpretatio
+n'.
+      uiLocalNotifica
+tionDateInterpretatio
+n:
+      ^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^
+Target kernel_snapsho
+t_program failed: 
+Exception
+
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileFlu
+tterBuildDebug'.
+> Process 'command 'C
+:\flutter_windows_3.3
+5.5-stable\flutter\bi
+n\flutter.bat'' 
+finished with 
+non-zero exit value 1
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 6s
+Running Gradle task 'assembleDebug'...                              7.0s
+Gradle task 
+assembleDebug failed 
+with exit code 1

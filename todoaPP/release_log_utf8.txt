@@ -1,0 +1,67 @@
+﻿Running Gradle task 'assembleRelease'...                        
+flutter : lib/providers/todo
+_provider.dart:87:29: 
+Error: Method not found: 
+'StateProvider'.
+At line:1 char:1
++ flutter build apk 
+--release > release_log.txt 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (lib/p  
+  roviders/t...StateProvi   
+ der'.:String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+final searchQueryProvider = 
+StateProvider<String>((ref) 
+=> '');
+                            
+^^^^^^^^^^^^^
+lib/providers/todo_provider.
+dart:88:34: Error: Method 
+not found: 'StateProvider'.
+final 
+selectedCategoryProvider = 
+StateProvider<String>((ref) 
+=> 'All');
+                            
+     ^^^^^^^^^^^^^
+Target 
+kernel_snapshot_program 
+failed: Exception
+
+
+FAILURE: Build failed with 
+an exception.
+
+* What went wrong:
+Execution failed for task ':
+app:compileFlutterBuildRelea
+se'.
+> Process 'command 'C:\flutt
+er_windows_3.35.5-stable\flu
+tter\bin\flutter.bat'' 
+finished with non-zero exit 
+value 1
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or 
+--debug option to get more 
+log output.
+> Run with --scan to get 
+full insights.
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 13s
+Running Gradle task 'assembleRelease'...                           13.9s
+Gradle task assembleRelease 
+failed with exit code 1
